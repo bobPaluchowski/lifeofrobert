@@ -1,0 +1,33 @@
+:root {
+  --bg-color: #222222; /* Charcoal */
+  --text-color: #e0e0e0; /* Off-white */
+  --primary-color: #b39ddb; /* Pastel Purple */
+  --secondary-color: #90caf9; /* Pastel Blue */
+  --accent-color: #f48fb1; /* Pastel Pink */
+  --card-bg: #2d2d2d;
+  --font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+  margin-bottom: 0.5em;
+}
+
+button {
+  font-family: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
